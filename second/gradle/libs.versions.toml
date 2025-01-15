@@ -1,0 +1,6 @@
+[versions]
+kotestVersion = '5.9.1'
+
+[libraries]
+kotest-runner-junit = { module = 'io.kotest:kotest-runner-junit5', version.ref = 'kotestVersion' }
+kotest-assertions = { module = 'io.kotest:kotest-assertions-core', version.ref = 'kotestVersion' }
