@@ -1,0 +1,6 @@
+[versions]
+antlrVersion = '4.13.2'
+
+[libraries]
+antlr-compiler = { module = "org.antlr:antlr4", version.ref = "antlrVersion" }
+antlr-runtime = { module = "org.antlr:antlr4-runtime", version.ref = "antlrVersion" }
