@@ -1,0 +1,37 @@
+digraph {
+    0 [label=D];
+    1 [label=var];
+    2 [label=hello];
+    3 [label=":"];
+    4 [label=Array];
+    5 [label="<"];
+    6 [label=T];
+    7 [label=Array];
+    8 [label="<"];
+    9 [label=T];
+    10 [label=Array];
+    11 [label="<"];
+    12 [label=T];
+    13 [label=Hello];
+    14 [label=">"];
+    15 [label=">"];
+    16 [label=">"];
+    17 [label=";"];
+    0 -> 1 [label=""];
+    0 -> 2 [label=""];
+    0 -> 3 [label=""];
+    0 -> 4 [label=""];
+    0 -> 5 [label=""];
+    0 -> 6 [label=""];
+    0 -> 16 [label=""];
+    0 -> 17 [label=""];
+    6 -> 7 [label=""];
+    6 -> 8 [label=""];
+    6 -> 9 [label=""];
+    6 -> 15 [label=""];
+    9 -> 10 [label=""];
+    9 -> 11 [label=""];
+    9 -> 12 [label=""];
+    9 -> 14 [label=""];
+    12 -> 13 [label=""];
+}
